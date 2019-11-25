@@ -1,17 +1,24 @@
- # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 import webbrowser
 
-for x in range(0,20):
 
-f = create(variable1 + str(x).html)
+f = open('html_page.html','w')
+message1 = """
+<html><head><title>The Dormouse's story</title></head>
+<body>
+<p class="title"><b>The Dormouse's story</b></p>
 
-var1= (text + str(x))
+<p class="story">Once upon a time there were three little sisters; and their names were
+<a href="http://example.com/elsie" class="sister" id="link1">Elsie</a>,
+<a href="http://example.com/lacie" class="sister" id="link2">Lacie</a> and
+<a href="http://example.com/tillie" class="sister" id="link3">Tillie</a>;
+and they lived at the bottom of a well.</p>
 
-message = """<!DOCTYPE HTML>
-<html>
-<head></head>
-<body><p>Hello World, this is the variable + var1 + .!</p></body>
-</html>"""
+<p class="story">...</p>
+"""
 
-f.write(message)
-f.close(
+
+f.write(message1)
+f.close(message)
+else
+return= 1
